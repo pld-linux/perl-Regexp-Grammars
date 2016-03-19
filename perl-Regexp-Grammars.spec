@@ -6,7 +6,7 @@
 %define		pdir	Regexp
 %define		pnam	Grammars
 Summary:	Regexp::Grammars Perl module - add grammatical parsing features to Perl 5.10 regexes
-Summary(pl.UTF-8):	Modu³ Perla Regexp::Grammars - dodaje do wyra¿eñ regularnych mo¿liwo¶æ parsowania gramatyk
+Summary(pl.UTF-8):	ModuÅ‚ Perla Regexp::Grammars - dodaje do wyraÅ¼eÅ„ regularnych moÅ¼liwoÅ›Ä‡ parsowania gramatyk
 Name:		perl-Regexp-Grammars
 Version:	1.045
 Release:	1
@@ -27,9 +27,9 @@ that can be used within Perl 5.10 patterns to implement complete
 recursive-descent parsing.
 
 %description -l pl.UTF-8
-Modu³ Regexp::Grammars dodaje trochê nowych konstrukcji wyra¿eñ
-regularnych, które mog± byæ u¿yte w Perlu 5.10 do implementacji
-kompletnego analizatora zstêpuj±cego.
+ModuÅ‚ Regexp::Grammars dodaje trochÄ™ nowych konstrukcji wyraÅ¼eÅ„
+regularnych, ktÃ³re mogÄ… byÄ‡ uÅ¼yte w Perlu 5.10 do implementacji
+kompletnego analizatora zstÄ™pujÄ…cego.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
