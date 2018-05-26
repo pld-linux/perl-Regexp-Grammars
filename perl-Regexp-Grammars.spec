@@ -8,13 +8,14 @@
 Summary:	Regexp::Grammars Perl module - add grammatical parsing features to Perl 5.10 regexes
 Summary(pl.UTF-8):	Moduł Perla Regexp::Grammars - dodaje do wyrażeń regularnych możliwość parsowania gramatyk
 Name:		perl-Regexp-Grammars
-Version:	1.045
+Version:	1.048
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	8d55de81d4985953e25a76a1f28897da
+# Source0-md5:	cb7d4e2d46b84875b6acc645da8ea01f
+URL:		https://metacpan.org/release/Regexp-Grammars
 BuildRequires:	perl-devel >= 1:5.10.0
 BuildRequires:	perl-Test-Simple >= 0.30
 BuildRequires:	rpm-perlprov >= 4.1-13
